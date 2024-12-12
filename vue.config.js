@@ -1,6 +1,7 @@
 module.exports={
   lintOnSave:false, // 关闭eslint语法检查配置
   devServer:{
+    port: 8080,
     proxy:{
       '/api':{
         target:'http://localhost:8888', // 填写真实的后台接口
