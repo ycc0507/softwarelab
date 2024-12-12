@@ -5,6 +5,7 @@ import App from './App.vue'
 import locale from 'element-plus/dist/locale/zh-cn'
 import router from './router'
 const app = createApp(App)
+import '../mock/mock.js'
 
 
 app.use(ElementPlus, { locale })
